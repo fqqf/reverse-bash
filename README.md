@@ -44,7 +44,7 @@ types
 ```
 
 ## logme
-*Intercepts calls to binary by wrapping it with logger. (logme-strict uses exec redirection)*
+*Intercepts calls to binary by wrapping it with logger. (logme-strict uses exec redirection with both STDOUT and STDERR)*
 
 ### Usage:
 ```bash
@@ -58,3 +58,4 @@ $ cat /var/log/rhttpd.log
 [bash][Thu Nov  9 05:34:52 PST 2023] : /bin/rhttpd 80
 Listening server at :80
 ```
+
